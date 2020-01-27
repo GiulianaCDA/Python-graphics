@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 dataset = pd.read_csv("a2_MANCHAS.csv")
-dataset = dataset.head(30)
 plt.style.use('seaborn')
 
 x = dataset.Ano
